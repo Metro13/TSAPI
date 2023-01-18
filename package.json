@@ -5,7 +5,8 @@
   "main": "server.ts",
   "scripts": {
     "dev": "nodemon server.ts",
-    "build": "rm -rf build/ && prettier --write && tsc"
+    "build": "rm -rf build/ && prettier --write && tsc",
+    "deploy" : "vercel deploy --prod"
   },
   "author": "Noel phiri",
   "license": "MIT",
