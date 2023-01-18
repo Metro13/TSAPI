@@ -1,0 +1,25 @@
+{
+  "name": "typescript-api",
+  "version": "1.0.0",
+  "description": "TypeScript API",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "nodemon server.ts",
+    "build": "rm -rf build/ && prettier --write && tsc"
+  },
+  "author": "Noel phiri",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.15",
+    "@types/morgan": "^1.9.4",
+    "axios": "^1.2.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "typescript": "^4.9.4"
+  }
+}
