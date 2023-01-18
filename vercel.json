@@ -1,8 +1,16 @@
 {
-    "functions": {
-      "server.ts": {
-        "memory": 3008
-      }
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.ts",
+      "use": "@now/node"
     }
-  }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server.js"
+    }
+  ]
+}
   
